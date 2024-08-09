@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import CustomHook from "./CustomHook";
-
+import pdf from "../../public/my-resume.pdf";
 const Home = () => {
   const scrollTab = useRef();
   CustomHook(scrollTab);
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
 
         <a
-          href="/democv.pdf"
+          href={pdf}
           target="_blank"
           rel="noopener noreferrer"
           className="animation active "
