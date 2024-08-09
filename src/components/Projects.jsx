@@ -81,13 +81,13 @@ function Projects() {
       github: "https://github.com/turgunboy01/green-shop",
     },
     {
-      name: "Project Green Shop in website",
-      des: "This website was created for the flower shop. Adaptive design, made for all devices.",
+      name: "Project MovieX in website",
+      des: "This website was created for the movie aplication. Adaptive design, made for all devices. ",
       mission: "Front-end Developer, system adaptive design",
-      language: "HTML5, CSS3, React JS, Firebase,...",
+      language: "HTML5, CSS3, React JS, Rest Api,...",
       images: img8,
-      link: "https://green-shop-gray.vercel.app",
-      github: "https://github.com/turgunboy01/green-shop",
+      link: "https://elaborate-pithivier-ddd52a.netlify.app",
+      github: "https://github.com/turgunboy01/movie-App",
     },
     {
       name: "Project Green Shop in website",
@@ -125,7 +125,7 @@ function Projects() {
             </div>
             <div className="content">
               <h3>{value.name}</h3>
-              <div className="des">{value.des}</div>
+              <div className="des desc1">{value.des}</div>
               <div className="mission">
                 <div>
                   <FaPersonCircleQuestion />

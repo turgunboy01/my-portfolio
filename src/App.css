@@ -267,6 +267,9 @@ section.projects {
           text-align: left;
           width: 100%;
         }
+        .desc1 {
+          padding: 10px 0;
+        }
         & .mission {
           display: grid;
           grid-template-columns: 70px 1fr;
@@ -278,6 +281,10 @@ section.projects {
             padding: 20px;
             font-size: 20px;
             border-radius: 15px;
+          }
+          h4 {
+            margin: 0;
+            padding: 2px 0;
           }
           .links {
             display: flex;
@@ -402,6 +409,11 @@ section.contacts {
             grid-column-end: auto;
           }
         }
+      }
+    }
+    &.contacts {
+      & .list {
+        grid-template-columns: 1fr;
       }
     }
   }
