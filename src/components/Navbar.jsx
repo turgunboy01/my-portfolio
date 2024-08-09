@@ -6,7 +6,7 @@ import logo from "../../public/public/logo.png";
 const Navbar = ({ activeTab }) => {
   const dispatch = useDispatch();
 
-  const [linkNav] = useState(["home", "skills", "projects", "contacts"]);
+  const [linkNav] = useState(["Home", "Skills", "Projects", "Contacts"]);
   const [statusNav, changeStatusNav] = useState(null);
   const toggleNav = () => {
     changeStatusNav(statusNav === null ? "active" : null);
