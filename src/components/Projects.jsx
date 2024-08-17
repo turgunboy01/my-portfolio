@@ -50,8 +50,8 @@ function Projects() {
       mission: "Front-end Developer",
       language: "HTML5, CSS3, React JS, Rest Api,...",
       images: img4,
-      link: "https://green-shop-gray.vercel.app",
-      github: "https://github.com/turgunboy01/green-shop",
+      link: "https://crypto-humter.vercel.app/",
+      github: "https://github.com/turgunboy01/cryptoHumter",
     },
     {
       name: "Project Countries in website",
@@ -59,8 +59,8 @@ function Projects() {
       mission: "Front-end Developer, adaptive design",
       language: "HTML5, CSS3, React JS, Rest Api,...",
       images: img5,
-      link: "https://green-shop-gray.vercel.app",
-      github: "https://github.com/turgunboy01/green-shop",
+      link: "https://country-app-lemon-chi.vercel.app/",
+      github: "https://github.com/turgunboy01/country-app",
     },
     {
       name: "Project FoodTrove Shop in website",
